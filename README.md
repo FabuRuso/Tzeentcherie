@@ -1,5 +1,17 @@
 # Tzeentcherie Project
 ## Showcase DRF backend server, implementing basic feeding-classifield functional with flat user-role system
+
+> [!IMPORTANT]
+> ### This README.md (especially the raw view) contains too wide tables
+
+> ### Headers to faster orientation
+> * [Features](#features)
+> * [Technologies](#technologies)
+> * [Run the project](#run-the-project)
+> * [Scheme of db](#scheme-of-db)
+> * [Views query](#views-query)
+> * [DEBUG releasing data in db](#debug-releasing-data-in-db)
+
 ### Features 
 - Date-ordered output list of `Tzeentcheries`<br/>
 &emsp;&mdash; short buissnesslike classifieds
@@ -20,7 +32,7 @@
 
 ---
 
-### Run of the project
+### Run the project
 ```bash
 git clone <repo>
 cd <project>
@@ -30,7 +42,6 @@ python -m venv venv
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-
 ```
 
 ---
